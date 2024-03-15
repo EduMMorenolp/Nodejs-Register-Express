@@ -1,15 +1,23 @@
 {
   "name": "nodejs-register-express",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "Un sistema de gestión de usuarios simple desarrollado con Node.js, Express y Prisma. Permite crear nuevos usuarios y ver una lista de usuarios existentes.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "node",
+    "express",
+    "prisma",
+    "usuarios",
+    "gestión",
+    "sistema",
+    "aplicación"
+  ],
+  "author": "EduMMoreno",
   "license": "ISC",
   "dependencies": {
     "@prisma/client": "^5.11.0",
