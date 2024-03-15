@@ -80,14 +80,14 @@
 <body>
     <div class="container">
         <h1>Create User</h1>
-        <form class="create-user-form" action="/createUser" method="POST">
-            <label for="username">Username:</label>
+        <form class="create-user-form" action="/users/createUser" method="POST">
+            <label for="username">Nombre:</label>
             <input type="text" id="username" name="username" required>
-            <label for="email">Email:</label>
+            <label for="email">Correo:</label>
             <input type="email" id="email" name="email" required>
-            <button type="submit">Submit</button>
+            <button type="submit">Crear Usuario</button>
             <br>
-            <a href="/" class="button"> Volver </a>
+            <a href="/" class="button"> Volver al Inicio </a>
         </form>
     </div>
 </body>

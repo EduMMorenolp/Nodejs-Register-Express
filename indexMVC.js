@@ -15,8 +15,8 @@ const indexRoutes = require('./routes/indexRoutes');
 const userRoutes = require('./routes/userRoutes');
 
 // Usar las rutas
-app.use('/', indexRoutes); // Usar las rutas de la página de inicio
-app.use('/users', userRoutes); // Usar las rutas relacionadas con los usuarios
+app.use('/', indexRoutes); 
+app.use('/users', userRoutes); 
 
 // Iniciar el servidor
 app.listen(PORT, () => {
