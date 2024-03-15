@@ -2,6 +2,12 @@
 
 Este es un sistema de gestión de usuarios simple desarrollado con Node.js, Express, EJS y Prisma. Permite crear nuevos usuarios y ver una lista de usuarios existentes.
 
+<p align="center">
+  <a href="">
+    <img src="https://skillicons.dev/icons?i=npm,nodejs,express,prisma&perline=14" />
+  </a>
+</p>
+
 ## Funcionalidades
 
 - Crear nuevos usuarios proporcionando un nombre de usuario y correo electrónico.
@@ -52,13 +58,6 @@ Este es un sistema de gestión de usuarios simple desarrollado con Node.js, Expr
 - Express
 - EJS (Embedded JavaScript)
 - Prisma (ORM para la base de datos)
-
-<p align="center">
-  <a href="">
-    <img src="https://skillicons.dev/icons?i=npm,nodejs,express,prisma&perline=14" />
-  </a>
-</p>
-
 
 ## Contribuciones
 
