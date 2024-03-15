@@ -16,13 +16,13 @@ Este es un sistema de gestión de usuarios simple desarrollado con Node.js, Expr
 1. Clona este repositorio en tu máquina local:
 
     ```bash
-    git clone https://github.com/tu-usuario/user-management-system.git
+    git clone https://github.com/EduMMorenolp/Nodejs-Register-Express.git
     ```
 
 2. Entra al directorio del proyecto:
 
     ```bash
-    cd user-management-system
+    cd Nodejs-Register-Express
     ```
 
 3. Instala las dependencias:
@@ -52,6 +52,13 @@ Este es un sistema de gestión de usuarios simple desarrollado con Node.js, Expr
 - Express
 - EJS (Embedded JavaScript)
 - Prisma (ORM para la base de datos)
+
+<p align="center">
+  <a href="">
+    <img src="https://skillicons.dev/icons?i=npm,nodejs,express,prisma&perline=14" />
+  </a>
+</p>
+
 
 ## Contribuciones
 
