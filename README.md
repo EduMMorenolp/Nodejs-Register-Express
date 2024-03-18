@@ -1,5 +1,7 @@
 # User Management System
 
+<img src="">
+
 Este es un sistema de gestión de usuarios simple desarrollado con Node.js, Express, EJS y Prisma. Permite crear nuevos usuarios y ver una lista de usuarios existentes.
 
 <p align="center">
