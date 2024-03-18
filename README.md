@@ -1,6 +1,6 @@
 # User Management System
 
-<img src="">
+<img src="https://github.com/EduMMorenolp/Nodejs-Register-Express/blob/master/public/img/image.png?raw=true">
 
 Este es un sistema de gestión de usuarios simple desarrollado con Node.js, Express, EJS y Prisma. Permite crear nuevos usuarios y ver una lista de usuarios existentes.
 
