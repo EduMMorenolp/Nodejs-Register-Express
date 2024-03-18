@@ -1,0 +1,33 @@
+<!-- login.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Cabecera del documento -->
+    <title>Iniciar Sesión</title>
+</head>
+<body>
+    <header>
+        <h1>Sistema de Manejo de Usuarios</h1>
+    </header>
+    <br>
+    <nav>
+        <a href="/users">Usuarios</a>
+        <a href="/users/createUser">Crear Usuario</a>
+        <% if (user) { %>
+            <a href="/logout">Cerrar Sesión</a>
+        <% } else { %>
+            <a href="/inicioSesion">Iniciar Sesión</a>
+        <% } %>
+    </nav>
+
+    <div class="container">
+        <% if (user) { %>
+            <h2>Bienvenido, <%= user.username %>!</h2>
+            <p>Seleccione una opción del menú de navegación.</p>
+        <% } else { %>
+            <h2>Bienvenido al Sistema de Gestión de Usuarios</h2>
+            <p>Por favor, inicie sesión para acceder a las funcionalidades del sistema.</p>
+        <% } %>
+    </div>
+</body>
+</html>
